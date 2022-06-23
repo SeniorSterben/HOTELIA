@@ -1,0 +1,19 @@
+.completo{
+    position: relative; 
+    left: 36%;
+    width: 11.5%;
+    border: PowderBlue 5px double;
+    background-color: azure;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.botonactualizar{   
+    position: relative;
+    top: 5px;
+    background-color: rgb(50, 173, 211);
+    width: 95%;
+}
+.registrohotel{
+    position: relative;
+    left: -5%;
+}
