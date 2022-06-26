@@ -4,27 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
     <title>Registrar Oferta</title>
-    <style href="./css/estilos.css"></style>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/forms.css">
 </head>
-
 <body>
-    <header>Oferta
-        <div class="derecha">Menú principal > Realizar oferta</div>
-    </header>
-    <label for="camas">Cantidad de camas</label><br>
-    <input type="camas" class="text" id="camas">
-    <br>
-    <label for="descripcion">Descripción</label><br>
-    <input type="descripcion" class="text" id="descripcion">
-    <br>
-    <label for="costo">Costo</label><br>
-    <input type="costo" class="text" id="costo"><br>
-    <input type="submit" value="OFERTA">
-    <footer>
-        2022 © Hotelia
-    </footer>
+    <div class="contenedor">
+        <div class="tittle-oft"><img src="./img/LogoSolo.png" width="25px" height="23px"> Añadir Oferta</div>
+        <form action="">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Cantidad de camas</span>
+                    <input type="text" placeholder="Digite el número" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Descripción</span>
+                    <input type="text" placeholder="Descripción" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Costo</span>
+                    <input type="text" placeholder="Digite el precio" required>
+                </div>
+            </div>
+        <div class="button">
+            <input type="submit" value="REGISTRAR">
+            <footer>
+                <div class="pie">
+                    2022 © Hotelia
+                </div>
+                </footer>
+        </div> 
+            </div>
+        </form>
+    </div>
+</body>                                                                          </html>
 </body>
 
 </html>

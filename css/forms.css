@@ -29,8 +29,8 @@ body {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 2px;
-    width: 363px;
+    height: 3px;
+    width: 396px;
     background:linear-gradient(135deg, #34A1C7, #002152 );
 
 }
@@ -97,7 +97,8 @@ form .estado-details .category{
     cursor: pointer;
 }
 #dot-1:checked ~ .category label .one,
-#dot-2:checked ~ .category label .two{ 
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .tri{ 
     border-color: #34A1C7;
     background: #002152;
 }
@@ -120,9 +121,85 @@ form .button input{
     letter-spacing: 1px;
     background: linear-gradient(135deg, #34A1C7, #002152 );
     cursor: pointer;
+    font-weight: bold;
 }
 form .button input:hover{
     background: linear-gradient(135deg, #34A1C7, #002152 );
+}
+.contenedor .tittle-srv::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 367px;
+    background:linear-gradient(135deg, #34A1C7, #002152 );
+}
+.contenedor .tittle-rh::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 319px;
+    background:linear-gradient(135deg, #34A1C7, #002152 );
+}
+.contenedor .tittle-rgt::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 228px;
+    background:linear-gradient(135deg, #34A1C7, #002152 );
+}
+.contenedor .tittle-srv,
+.contenedor .tittle-nsrv,
+.contenedor .tittle-oft,
+.contenedor .tittle-hbt,
+.contenedor .tittle-rh,
+.contenedor .tittle-rgt,
+.contenedor .tittle-mh{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 25px;
+}
+.contenedor .tittle-mh::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 288px;
+    background:linear-gradient(135deg, #34A1C7, #002152 );
+}
+.contenedor .tittle-nsrv::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 213px;
+    background:linear-gradient(135deg, #34A1C7, #002152 );
+}
+.contenedor .tittle-oft::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 191px;
+    background:linear-gradient(135deg, #34A1C7, #002152 );
+}
+.contenedor .tittle-hbt::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 246px;
+    background:linear-gradient(135deg, #34A1C7, #002152 );
 }
 @media (max-width: 584px){
     .contenedor{
@@ -143,3 +220,39 @@ form .estado-details .category{
     width: 0;
  }
 }
+input[type="date"]{
+    background-color: #007fd4;
+    padding: 9px;
+    width: 100%;
+    position: relative;
+    transform: translate(-50%-50%);
+    left: 0%;
+    top: -16px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #FFF;
+    border: none;
+    outline: none;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #FFF;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.terms{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.pie{
+    padding: 9px;
+    position: relative;
+    left: 41%;
+    top: 19px;
+    font-size: 13px;
+    color: #000000;
+}
+

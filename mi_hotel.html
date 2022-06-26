@@ -5,25 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=+, initial-scale=1.0">
-    <title>Mi Hotel</title>
-    <style href="./css/estilos.css"></style>
+    <title>Actualizar Información Hotel</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/forms.css">
 </head>
-<input type="submit" value="Mi hotel">
-
 <body>
-    <h1>Información del Hotel</h1>
-    <label for="nombre">Nombre</label><br>
-    <input type="nombre" class="text" id="nombre">
-    <br>
-    <label for="adress">Dirección</label><br>
-    <input type="adress" class="text" id="adress">
-    <br>
-    <label for="descripcion">Descripción</label><br>
-    <input type="descripcion" class="text" id="descripcion"><br>
-    <input type="submit" value="ACTUALIZAR">
-    <footer>
-        2022 © Hotelia
-    </footer>
+    <div class="contenedor">
+        <div class="tittle-mh"><img src="./img/LogoSolo.png" width="25px" height="23px"> Información del Hotel</div>
+        <form action="">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Información del Hotel</span>
+                    <input type="text" placeholder="Ej: 'Hotel La Candelaria'" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Dirección</span>
+                    <input type="text" placeholder="Digite la dirección" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Descripción</span>
+                    <input type="text" placeholder="Escriba la descripción" required>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="ACTUALIZAR">
+                <footer>
+                <div class="pie">
+                    2022 © Hotelia
+                </div>
+                </footer>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
