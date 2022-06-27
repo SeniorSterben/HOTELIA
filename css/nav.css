@@ -161,3 +161,19 @@ tr:nth-of-type(1) > th{
     width: 100%;
 
 }
+.co{
+    left: 20%;
+    border-radius: 3px;
+    background: #34A1C7;
+    padding: 10px;
+}
+.co2{
+    margin: auto;
+    text-align: center;
+
+}
+.bo{
+    background: no-repeat;
+    width: 70%;
+    margin: auto;
+}
