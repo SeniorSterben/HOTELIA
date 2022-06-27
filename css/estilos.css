@@ -3,12 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
 }
 .dios p{
     color: white;
     text-decoration: none;
     font-size: 17px;
-    font-family:'Lucida Sans Unicode';
+    font-family: Helvetica, sans-serif;
     text-align: center;
 }
 .z{
