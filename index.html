@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>Inicio Hotelia</title>
+</head>
+<body>
+<header>
+    <header class="header">
+        <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu">☰</label>
+            </div>
+            <div class="logo">
+                <a href="./index.html"><h1><img src="./img/LogoSolo.png" width="50px" height="40px"></h1></a>
+            </div>
+            <nav class="menu">
+                <a href=""><img src="./img/not.png" height="30px" width="30px"></a>
+                <a href=""><img src="./img/msj.png" height="30px" width="30px"></a>
+                <a href="./registro_perfil.html" target="_blank"><img src="./img/usuario.png" height="30px" width="30px"></a>
+            </nav>
+        </div>
+        <h1 class="hot">HOTELIA</h1>
+    </header>
+    <div class="capa"></div>
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <center><img src="./img/usuario.png" width="100px" height="100px"><br><br>
+                <h3>Armando Mesas</h3>
+                <p>Usuario</p></center>
+                <a href="./index.html" target="_blank"><img src="./img/LogoSolo.png" width="25px" height="23px"> Inicio</a>
+                <a href="./registro_hotel.html" target="_blank"> ✚ Añadir Hotel</a>
+                <a href="./listado_habitacion.html"><img src="./img/mihotel.png" height="30px" width="30px"> Mis Habitaciones</a>
+                <a href="./listado_servicios.html"><img src="./img/servicio.png" height="30px" width="30px"> Mis servicios</a>
+                <a href="./info_reserva.html"><img src="./img/reservas.png" height="30px" width="30px"> Mis reservas</a>
+                <a href="./registro_perfil.html"><img src="./img/encargado.png" height="30px" width="30px"> Registrar Usuario</a>
+                <a href="./registro_encargado.html"><img src="./img/identidad.png" height="30px" width="30px"> Registrar Encargado</a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>
+</header>
+    <nav>
+        <div>
+            <h1>Hotelia</h1>
+            <p>Nuestros </p><a href="">servicios</a>
+    </nav>
+    <br>
+    <!--Aquí va la parte que va centrada-->
+    <div class="co2">
+    <p>BOGOTÁ</p>
+    <h1>LUGARES TURÍSTICOS</h1>
+        <p>HOTELIA</p>
+        <P>$120.000</P>
+    </div>
+    <div class="co">
+    <!--Aquí se encuentra el formulario de búsqueda-->
+        <form>
+            <p>DESTINO: <input type="text" name="destino" maxlength="50" /></p>
+            <p>FECHA: <input type="date" name="fecha" maxlength="50"/></p>
+            <p>PERSONAS: <input type="number" name="Adultos" maxlength="8" placeholder="Adultos"/>
+                <input type="number" name="Niños" maxlength="8" placeholder="Niños"/>
+                <input type="number" name="Habitaciones" maxlength="8" placeholder="Habitaciones"/></p>
+            <p><input type="checkbox" name="info" checked="checked" /> Deseo recibir información sobre novedades y ofertas</p>
+            <p><input type="submit" value="BUSCAR HOTEL" /></p>
+            <a href="">
+                <img src=""><p>Mas opciones</p>
+            </a>
+        </form>
+    </div>
+    <div class="foot">
+        <footer>2022 © Hotelia</footer>
+    </div>
+</body>
+</html>
