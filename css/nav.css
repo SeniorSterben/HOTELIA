@@ -5,7 +5,7 @@
     font-family: Helvetica, sans-serif;
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #fafafa;
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
@@ -13,7 +13,6 @@ body{
     position: absolute;
     width: 100%;
     height: 100vh;
-    background: rgb(255, 255, 255);
     z-index: -1;
     top: 0;left: 0;
 }
@@ -22,7 +21,7 @@ body{
     height: 70px;
     position: fixed;
     top: 0;left: 0;;
-    background-color: rgb(0, 71, 129);
+    background: linear-gradient(135deg,#002152,#34A1C7 );
 }
 .container{
     width: 90%;
@@ -71,7 +70,7 @@ body{
 .cont-menu{
     width: 100%;
     max-width: 250px;
-    background:#0068a5;
+    background: linear-gradient(50deg,#002152,#34A1C7 );
     height: 100vh;
     position: relative;
     transition: all 500ms ease;
@@ -107,11 +106,58 @@ body{
     cursor: pointer;
     font-size: 18px;
 }
-.hot {
+.hot{
     text-align: center;
     margin-top: 17px;
     color: #ffffff;
     
 }
+.int .titulo{
+    position: relative;
+    left: 19%;
+    margin-top: 100px;
+    color: #0f0f0f;
+    margin-bottom: 5px;
+}
+.con2{
+    padding-top: 50px;
+    padding-left: 19%;
+    padding-right: 22%;
+}
+.but{
+    color:#ffffff;
+    text-align: right;
+    background-color:#34A1C7;
+    text-decoration: none;
+    border-radius:3px;
+    padding: 5px;
+    display: inline-block;
+    font-weight: bold;
 
+}
+table th{
+    width: 10em;
+}
+table {
+    border-collapse: collapse;
+}
 
+tr:nth-of-type(1) > th{
+    background-color: #34A1C7;
+}
+.foot{
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    background-color: #002152;
+    text-align: center;
+    position: absolute;
+    bottom: 1px;
+}
+.foot footer{
+    margin-top: 15px;
+}
+.s {
+    width: 100%;
+
+}
