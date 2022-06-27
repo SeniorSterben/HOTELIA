@@ -2,25 +2,27 @@
 <html lang="es">
 
 <head>
-    <body>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=+, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Document</title>
 </head>
-<h1><strong>Elija un rango</strong></h1>
-<br>
-<p>Rango de Tiempo</p>
-<br>
+<body class="tree">
+  <section class="insanidad">
+<h1 class="titulorango"><strong>Elija un rango</strong></h1>
+<hr width="100%">
+<p class="xd">Rango de Tiempo</p>
+<section>
 <label for="text"></label>
-<input type="text" multiple name="text" id="text" list="drawfemails" required size="64">
-
+<input class="xd1" type="text" multiple name="text" id="text" value="Una semana" list="drawfemails" required size="64">
+</section>
 <datalist id="drawfemails">
   <option value="Tiempo estimado">una semana</option>
   <option value="Tiempo estimado">tres meses</option>
 </datalist>
 <br>
-<br>
-<input type="submit" value="CREAR REPORTE"/>
+<input class="xd2" type="submit" value="CREAR REPORTE"/>
+</section>
     </body>
 </html>
